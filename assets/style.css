@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#quick-stats {
+    display: flex;
+    column-gap: 20px;
+}
+
+#body {
+    background-color: #E6E6E6;
+    padding: 18px;
+    color: #003A9E;
+
+}
+
+.quick-container {
+    padding: 18px;
+    background: #E6E6E6;
+    border: 2px solid #b5b5b5;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.quick-container h4 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #000;
+}
+
+.quick-container h2{
+    font-size: 24px;
+}
+
+#dashboard-title {
+    text-align: center;
+    margin-bottom: 36px;
+    font-size: 20px;
+}
+
+#graph-set1,
+#graph-set2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    margin-bottom: 20px;
+}
+
+#fig1,
+#fig2,
+#fig3,
+#fig4 {
+    /* border: 2px solid red; */
+    padding: 6px;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+#main-section {
+    grid-column: span 5;
+}
+
+.filter-area {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    column-gap: 12px;
+    width: 100%;
+}
+
+#department-dropdown{
+    display: block;
+    width: 100%;
+    padding: 12px;
+}
+
+.filter-button {
+    padding: 24px 12px;
+    border: 2px solid #b5b5b5;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #003A9E;
+
+}
+
+#aside {
+    grid-column: span 2;
+    color: #003A9E;
+
+}
+
+#gender-stat {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 12px;
+}
+
+#male,
+#female {
+    padding: 20px 14px;
+    font-size: 14px;
+    color: white;
+}
+
+#male {
+    flex-grow: 4;
+    background-color: #003A9E;
+    color: white;
+}
+#female{
+    flex-grow: 2;
+    background-color: #0083FF;
+    color: white;
+}
+#chart-container, #chart-container2{
+    border-radius: 5px;
+    border: 2px solid #b5b5b5;
+    box-sizing: border-box;
+    padding: 8px;
+    width: auto;
+    box-sizing: border-box;
+}
+
+#chart-header,#chart-header2{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#gender-stat-title{
+    text-align: center;
+    margin-bottom: 12px;
+    color: #003A9E;
+
+}
+
+#gender-stat-wrapper{
+    padding: 6px;
+    border-radius: 4px;
+    margin-top: 14px;
+    border: 2px solid #b5b5b5;
+}
